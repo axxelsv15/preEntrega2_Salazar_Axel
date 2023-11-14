@@ -1,0 +1,292 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #040303;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 9px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+section {
+    padding: 10px;
+    margin: 10px;
+    background-color: #f8f8f8;
+} 
+
+/* Estilo para el fondo de la página de inicio */
+.home-section {
+    background-image: url('../img/robot.gif ');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff; /* Ajusta el color del texto para que sea legible en la imagen de fondo */
+    padding: 100px 0; /* Ajusta el espaciado según sea necesario */
+}
+
+.home2-section {
+    background-image: url('../img/Drones.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff; /* Ajusta el color del texto para que sea legible en la imagen de fondo */
+    padding: 100px 0; /* Ajusta el espaciado según sea necesario */
+}
+
+/* Aplicar alineación hacia la izquierda */
+.left-align {
+    text-align: left;
+    padding: 10px;
+}
+
+/* Estilos para el botón dentro de home2-section */
+.home2-section button  {
+    background-color: #000000; /* Color de fondo del botón */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    font-size: 16px; /* Tamaño del texto del botón */
+    border: none; /* Elimina el borde del botón */
+    border-radius: 5px; /* Añade bordes redondeados al botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    display: inline-block; /* Hace que el botón se comporte como un elemento en línea */
+}
+
+/* Cambia el color del botón al pasar el ratón sobre él */
+.home2-section button:hover {
+    background-color: #555454;
+}
+
+.home2-section a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/*Estilo para la página de about us*/
+.about_us-section{
+    background-image: url('../img/atlas_about_us.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff; /* Ajusta el color del texto para que sea legible en la imagen de fondo */
+    padding: 100px 0; /* Ajusta el espaciado según sea necesario */
+}
+
+/* Sección de About us*/
+.about-us2-section{
+    background-color: black;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    
+    
+}
+
+.center-align{
+    text-align: center;
+    font-size: 25px;
+}
+
+.content {
+    display: flex; /* Utiliza flexbox para colocar elementos en fila */
+    justify-content: space-between; /* Coloca el texto y la imagen en los extremos opuestos */
+    align-items: center; /* Centra verticalmente los elementos en la sección */
+    padding: 20px;
+    background-color: #000000;
+}
+
+.text {
+    flex: 1; /* El párrafo ocupa el 50% del ancho de la sección */
+    padding: 20px;
+}
+
+.text p {
+    font-size: 16px;
+    color: #fff;
+}
+
+.image {
+    flex: 1; /* La imagen ocupa el 50% del ancho de la sección */
+    text-align: right; /* Alinea la imagen a la derecha */
+}
+
+.image img {
+    max-width: 100%; /* Asegura que la imagen se ajuste al contenedor */
+    height: auto;
+}
+
+/*sección projects*/
+
+.projects-section {
+    background-image: url('../img/projects.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff; /* Ajusta el color del texto para que sea legible en la imagen de fondo */
+    padding: 100px 0; /* Ajusta el espaciado según sea necesario */
+}
+
+.top-image img {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 20px; /* Agrega margen inferior para separarla del párrafo */
+}
+
+/* sección education */
+
+.education-section {
+    background-image: url('../img/education_img.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff; /* Ajusta el color del texto para que sea legible en la imagen de fondo */
+    padding: 100px 0; /* Ajusta el espaciado según sea necesario */
+}
+
+.icon-section {
+    display: flex;
+    justify-content: space-around;
+    background-color: #000000;
+    padding: 20px;
+}
+
+.icon-box {
+    text-align: center;
+    padding: 20px;
+}
+
+i {
+    font-size: 36px;
+    color: #fb0202;
+}
+
+h3 {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #fff;
+}
+
+p  {
+    font-size: 14px;
+    color: #fff8f8;
+}
+
+
+/* Fomulario y footer*/
+.container h2{
+    text-align: center;
+    color: white;
+}
+
+.form4 {
+	background-color: #030303;
+	background-size: cover;
+}
+
+.top {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.form-bg {
+	background: rgba(0, 0, 0, 0.77);
+	padding: 20px;
+}
+
+.form {
+	background-color: white !important;
+	padding: 20px;
+}
+
+.form-group {
+	margin-bottom: 20px;
+}
+
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0;
+}
+
+.form-control {
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 1px solid #0b0b0b;
+	background: transparent;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+
+button.btn {
+	display: block;
+	padding: 11px 32px;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+	margin: 30px 0px;
+}
+
+.btn-blue {
+	background-color: #fafafa;
+	color: #000000;
+	border: 1px solid #989494;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #020101;
+    color: #fff;
+}
+
+.footer-social-icons {
+    text-align: center;
+}
+
+.footer-social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer-social-icons i {
+    font-size: 24px;
+    color: #fff;
+}
+
